@@ -1,0 +1,103 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>The HTML5 Herald</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+  
+<!-- 	<div id="coconutt-chat-widget">
+		<script src="http://127.0.0.1/exampleCode.js" defer="defer"></script>
+	</div> -->
+	
+	<div id="coconutt-chat-widget" style="border: none; background: transparent; z-index: 999998; transform: translateZ(0px); position: fixed; opacity: 1; right: 0px; bottom: 0px; width: 121px; height: 47px; margin: 10px 20px; transition-property: opacity, width, height, bottom; transition-timing-function: ease; transition-duration: 300ms;">
+		<script src="http://127.0.0.1/coconutt.js" defer="defer"></script>
+	</div>
+	
+	<div id="readme" class="markdown">
+      
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+<h1 class="package-name-redundant"><a id="user-content-simple-server" class="deep-link" href="#simple-server"><svg aria-hidden="true" class="deep-link-icon" height="16" version="1.1" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Simple Server</h1>
+
+
+<p><a href="https://npmjs.org/package/simple-server" title="View this project on NPM"><img src="https://badge.fury.io/js/simple-server.png" alt="NPM version" class="badge"></a>
+<a href="https://www.gittip.com/balupton/" title="Donate weekly to this project using Gittip"><img src="http://img.shields.io/gittip/balupton.png" alt="Gittip donate button" class="badge"></a>
+<a href="http://flattr.com/thing/344188/balupton-on-Flattr" title="Donate monthly to this project using Flattr"><img src="https://raw.github.com/balupton/flattr-buttons/master/badge-89x18.gif" alt="Flattr donate button"></a>
+<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=QB8GQPZAH84N6" title="Donate once-off to this project using Paypal"><img src="https://www.paypalobjects.com/en_AU/i/btn/btn_donate_SM.gif" alt="PayPayl donate button"></a></p>
+
+
+<p class="package-description-redundant">Simple Server allows you to easily get a node.js static file server up and running anywhere anytime.</p>
+
+
+<h2><a id="user-content-install" class="deep-link" href="#install"><svg aria-hidden="true" class="deep-link-icon" height="16" version="1.1" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Install</h2>
+<h3><a id="user-content-node--browserify" class="deep-link" href="#node--browserify"><svg aria-hidden="true" class="deep-link-icon" height="16" version="1.1" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="http://nodejs.org/">Node</a>, <a href="http://browserify.org/">Browserify</a></h3>
+<ul>
+<li>Use: <code>require('simple-server')</code></li>
+<li>Install: <code>npm install --save simple-server</code></li>
+</ul>
+<h3><a id="user-content-ender" class="deep-link" href="#ender"><svg aria-hidden="true" class="deep-link-icon" height="16" version="1.1" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><a href="http://ender.jit.su/">Ender</a></h3>
+<ul>
+<li>Use: <code>require('simple-server')</code></li>
+<li>Install: <code>ender add simple-server</code></li>
+</ul>
+
+<h2><a id="user-content-using" class="deep-link" href="#using"><svg aria-hidden="true" class="deep-link-icon" height="16" version="1.1" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Using</h2>
+<p>To get your <code>public</code> folder up and running on <code>http://localhost:3000</code> simply type the following into terminal:</p>
+<div class="highlight"><pre class="editor editor-colors"><div class="line"><span class="text"><span>simple-server&nbsp;public&nbsp;3000</span></span></div></pre></div>
+<p>The first argument is the folder you want to serve, and the second argument is the port to serve from :)</p>
+
+<h2><a id="user-content-history" class="deep-link" href="#history"><svg aria-hidden="true" class="deep-link-icon" height="16" version="1.1" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>History</h2>
+<p><a href="https://github.com/balupton/simple-server/blob/master/History.md#files">Discover the change history by heading on over to the <code>History.md</code> file.</a></p>
+
+
+<h2><a id="user-content-backers" class="deep-link" href="#backers"><svg aria-hidden="true" class="deep-link-icon" height="16" version="1.1" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Backers</h2>
+<h3><a id="user-content-maintainers" class="deep-link" href="#maintainers"><svg aria-hidden="true" class="deep-link-icon" height="16" version="1.1" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Maintainers</h3>
+<p>These amazing people are maintaining this project:</p>
+<ul>
+<li>Benjamin Lupton <a href="mailto:b@lupton.cc">b@lupton.cc</a> (https://github.com/balupton)</li>
+</ul>
+<h3><a id="user-content-sponsors" class="deep-link" href="#sponsors"><svg aria-hidden="true" class="deep-link-icon" height="16" version="1.1" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Sponsors</h3>
+<p>No sponsors yet! Will you be the first?</p>
+<p><a href="https://www.gittip.com/balupton/" title="Donate weekly to this project using Gittip"><img src="http://img.shields.io/gittip/balupton.png" alt="Gittip donate button" class="badge"></a>
+<a href="http://flattr.com/thing/344188/balupton-on-Flattr" title="Donate monthly to this project using Flattr"><img src="https://raw.github.com/balupton/flattr-buttons/master/badge-89x18.gif" alt="Flattr donate button"></a>
+<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=QB8GQPZAH84N6" title="Donate once-off to this project using Paypal"><img src="https://www.paypalobjects.com/en_AU/i/btn/btn_donate_SM.gif" alt="PayPayl donate button"></a></p>
+<h3><a id="user-content-contributors" class="deep-link" href="#contributors"><svg aria-hidden="true" class="deep-link-icon" height="16" version="1.1" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Contributors</h3>
+<p>These amazing people have contributed code to this project:</p>
+<ul>
+<li>balupton (https://github.com/balupton) - <a href="https://github.com/balupton/simple-server/commits?author=balupton">view contributions</a></li>
+</ul>
+<p><a href="https://github.com/balupton/simple-server/blob/master/Contributing.md#files">Become a contributor!</a></p>
+
+
+<h2><a id="user-content-license" class="deep-link" href="#license"><svg aria-hidden="true" class="deep-link-icon" height="16" version="1.1" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>License</h2>
+<p>Licensed under the incredibly <a href="http://en.wikipedia.org/wiki/Permissive_free_software_licence">permissive</a> <a href="http://creativecommons.org/licenses/MIT/">MIT license</a></p>
+<p>Copyright © 2011+ Benjamin Lupton <a href="mailto:b@lupton.cc">b@lupton.cc</a> (http://balupton.com)</p>
+
+
+  </div>
+</body>
+</html>
