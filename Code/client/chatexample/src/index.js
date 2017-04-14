@@ -10,4 +10,4 @@ ReactDOM.render(
   <App />,
   document.getElementById('root')||container
 );
-console.log(`You are using ${React.version} version of React and not ${window.React.version} which is the global one.`);
+
